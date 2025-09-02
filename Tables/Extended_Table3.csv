@@ -1,0 +1,25 @@
+antigen,model,k,AIC,loglik,delta_AIC
+CA09,N2 imprinting,3,485.95,-239.97,0
+CA09,N1 imprinting,3,485.95,-239.97,0
+CA09,Group 1 imprinting,3,500.12,-247.06,14.18
+CA09,Group 2 imprinting,3,500.12,-247.06,14.18
+CA09,Birth year,3,500.46,-247.23,14.51
+CA09,Age,3,500.46,-247.23,14.51
+VN04,N2 imprinting,3,502.61,-248.3,0
+VN04,N1 imprinting,3,502.61,-248.3,0
+VN04,Group 1 imprinting,3,515.27,-254.63,12.66
+VN04,Group 2 imprinting,3,515.27,-254.63,12.66
+VN04,Age,3,516.91,-255.46,14.3
+VN04,Birth year,3,516.91,-255.46,14.3
+DC24,N2 imprinting,3,507.16,-250.58,0
+DC24,N1 imprinting,3,507.16,-250.58,0
+DC24,Group 2 imprinting,3,518.51,-256.26,11.35
+DC24,Group 1 imprinting,3,518.51,-256.26,11.35
+DC24,Age,3,519.75,-256.87,12.59
+DC24,Birth year,3,519.75,-256.87,12.59
+BC24,N2 imprinting,3,506.76,-250.38,0
+BC24,N1 imprinting,3,506.76,-250.38,0
+BC24,Group 1 imprinting,3,518.72,-256.36,11.95
+BC24,Group 2 imprinting,3,518.72,-256.36,11.95
+BC24,Age,3,519.7,-256.85,12.94
+BC24,Birth year,3,519.7,-256.85,12.94

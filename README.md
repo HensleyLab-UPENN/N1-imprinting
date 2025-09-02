@@ -1,1 +1,2 @@
-# N1-imprinting
+# Ort et al. – N1 imprinting
+Contains the source data and code to generate figures and tables for our manuscript "Cross-reactive human antibody responses to H5N1 influenza virus neuraminidase are shaped by immune history"

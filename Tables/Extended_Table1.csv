@@ -1,0 +1,21 @@
+Correlation,Coefficient (95% CI),P value
+BC24 titers - Group 1 imprinting,"0.19 (0.01,0.36)",0.03537531567010596
+BC24 titers - Group 2 imprinting,"-0.19 (-0.36,-0.01)",0.035375315670105885
+BC24 titers - N1 imprinting,"0.33 (0.16,0.48)",2.8090341425431937e-4
+BC24 titers - N2 imprinting,"-0.33 (-0.48,-0.16)",2.809034142543204e-4
+BC24 titers - Birth year,"-0.12 (-0.29,0.06)",0.19685227786647305
+CA09 titers - Group 1 imprinting,"0.16 (-0.02,0.33)",0.07670823459659626
+CA09 titers - Group 2 imprinting,"-0.16 (-0.33,0.02)",0.07670823459659626
+CA09 titers - N1 imprinting,"0.35 (0.18,0.5)",8.702993547158463e-5
+CA09 titers - N2 imprinting,"-0.35 (-0.5,-0.18)",8.702993547158337e-5
+CA09 titers - Birth year,"-0.07 (-0.25,0.11)",0.43533456949591187
+DC24 titers - Group 1 imprinting,"0.19 (0.01,0.36)",0.03701116901460605
+DC24 titers - Group 2 imprinting,"-0.19 (-0.36,-0.01)",0.037011169014606146
+DC24 titers - N1 imprinting,"0.32 (0.15,0.47)",3.73823138434155e-4
+DC24 titers - N2 imprinting,"-0.32 (-0.47,-0.15)",3.738231384341589e-4
+DC24 titers - Birth year,"-0.1 (-0.27,0.08)",0.29634241991500226
+VN04 titers - Group 1 imprinting,"0.22 (0.04,0.39)",0.015928278927857614
+VN04 titers - Group 2 imprinting,"-0.22 (-0.39,-0.04)",0.015928278927857614
+VN04 titers - N1 imprinting,"0.35 (0.18,0.5)",1.1336726686455486e-4
+VN04 titers - N2 imprinting,"-0.35 (-0.5,-0.18)",1.1336726686455579e-4
+VN04 titers - Birth year,"-0.12 (-0.29,0.06)",0.18926880123676873
