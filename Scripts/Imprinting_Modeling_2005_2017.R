@@ -163,15 +163,15 @@ bootstrap_n1_vs_age <- run_bootstrap_correlation_test(titer_df_adults,
                                                       nrep = nrep)
 
 # Does birth year beat age?
-bootstrap_yob_vs_age <- run_bootstrap_correlation_test(titer_df_adults,
-                                                       predictor1 = "yob",
-                                                       predictor2 = "age",
+bootstrap_age_vs_yob <- run_bootstrap_correlation_test(titer_df_adults,
+                                                       predictor1 = "age",
+                                                       predictor2 = "yob",
                                                        nrep = nrep)
 
 bootstrap_results <- 
   bootstrap_n1_vs_yob %>%
   bind_rows(bootstrap_n1_vs_age) %>%
-  bind_rows(bootstrap_yob_vs_age)
+  bind_rows(bootstrap_age_vs_yob)
 
 bootstrap_results <- bootstrap_results %>%
   label_antigens() %>%
@@ -201,5 +201,5 @@ bootstrap_results <- bootstrap_results %>%
          `Titer correlation with predictor 2`, `Observed difference`,
          `Bootstrap difference (95% CI)`)
 
-write_csv(bootstrap_results,  "Ort-et-al_N1-imprinting/Tables/Extended_Table4.csv")
+write_csv(bootstrap_results,  "Ort-et-al_N1-imprinting/Tables/Extended_Table41.csv")
 
