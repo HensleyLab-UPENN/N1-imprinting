@@ -99,7 +99,13 @@ for (virus in list("VN04", "DC24", "BC24")) {
                 color = "black",
                 linewidth = 0.2) +
     labs(
-      y = "H5N1 A/Vietnam/1203/2004\ngeometric mean NAI50 titer",
+      y = paste0(case_match(
+        virus,
+        "CA09" ~ "H1N1 A/California/07/2009",
+        "VN04" ~ "H5N1 A/Vietnam/1203/2004",
+        "DC24" ~ "H5N1 A/Dairy Cow/Texas/24-008749-002-v/2024",
+        "BC24" ~ "H5N1 A/British Columbia/PHL-2032/2024"
+      ), "\ngeometric mean NAI50 titer"),
       x = "H1N1 A/California/07/2009\ngeometric mean NAI50 titer"
     )
   
